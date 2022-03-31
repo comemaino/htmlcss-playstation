@@ -1,0 +1,37 @@
+/* COMMON */
+:root {
+	--_primary-clr: #2d64e6;
+	--_light-text-clr: #fff;
+	--_medium-text-clr: #555;
+	--_btn-clr: #cd3d0f;
+	--_primary-bg-clr: #bebcbb;
+	--_secondary-bg-clr: #161c3b;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+/* HEADER */
+.header-top {
+	height: 2rem;
+	background-color: #000;
+}
+
+.sony-logo-wrapper {
+	padding: 0.5rem;
+	width: 6rem;
+}
+
+/* NAV */
+.ps-logo-wrapper {
+	width: 4rem;
+}
