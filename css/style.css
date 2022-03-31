@@ -20,6 +20,15 @@ li {
 	display: inline-block;
 }
 
+._container {
+	width: 92%;
+	margin: 0 auto;
+}
+
+._w-33 {
+	width: 33%;
+}
+
 /* HEADER */
 .header-top {
 	height: 2rem;
@@ -34,4 +43,17 @@ li {
 /* NAV */
 .ps-logo-wrapper {
 	width: 4rem;
+}
+
+/* MAIN */
+.jumbotron-1 {
+	position: relative;
+	height: 42rem;
+	color: var(--_light-text-clr);
+	background-image: url(../img/jumbo-bg.png);
+}
+
+.jumbo-content {
+	position: absolute;
+	bottom: 3rem;
 }
