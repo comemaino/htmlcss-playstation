@@ -21,6 +21,7 @@ li {
 }
 
 section {
+	position: relative;
 	padding: 2rem 0;
 }
 
@@ -51,7 +52,6 @@ section {
 
 /* MAIN */
 .jumbotron-1 {
-	position: relative;
 	height: 42rem;
 	color: var(--_light-text-clr);
 	background-image: url(../img/jumbo-bg.png);
