@@ -20,6 +20,10 @@ li {
 	display: inline-block;
 }
 
+section {
+	padding: 2rem 0;
+}
+
 ._container {
 	width: 92%;
 	margin: 0 auto;
