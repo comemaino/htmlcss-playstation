@@ -82,3 +82,9 @@ nav {
 ._ps-plus {
 	background-color: var(--_light-bg-clr);
 }
+
+/* PLAYSTATION-NOW */
+._ps-now {
+	color: var(--_light-text-clr);
+	background-color: var(--_secondary-bg-clr);
+}
