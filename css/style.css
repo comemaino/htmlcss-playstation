@@ -1,11 +1,17 @@
-/* COMMON */
+/* VARIABLES */
 :root {
 	--_primary-clr: #2d64e6;
 	--_light-text-clr: #fff;
 	--_medium-text-clr: #555;
 	--_btn-clr: #cd3d0f;
-	--_primary-bg-clr: #bebcbb;
+	--_light-bg-clr: #bebcbb;
+	--_dark-bg-clr: #222;
 	--_secondary-bg-clr: #161c3b;
+}
+
+/* COMMON */
+body {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -21,27 +27,22 @@ li {
 }
 
 section {
-	position: relative;
 	padding: 2rem 0;
 }
 
 ._container {
-	width: 92%;
 	margin: 0 auto;
-}
-
-._w-33 {
-	width: 33%;
+	width: 90%;
 }
 
 /* HEADER */
-.header-top {
-	height: 2rem;
-	background-color: #000;
+
+nav {
+	background-color: var(--_light-text-clr);
 }
 
-.sony-logo-wrapper {
-	padding: 0.5rem;
+._header-top img {
+	padding: 0.3rem;
 	width: 6rem;
 }
 
@@ -51,13 +52,28 @@ section {
 }
 
 /* MAIN */
-.jumbotron-1 {
-	height: 42rem;
+._jumbotron {
 	color: var(--_light-text-clr);
+}
+
+._jumbotron-1 {
+	background-position: 50% 5rem;
+	padding: 20rem 0 3rem;
 	background-image: url(../img/jumbo-bg.png);
 }
 
-.jumbo-content {
-	position: absolute;
-	bottom: 3rem;
+._jumbo-content img {
+	width: 85%;
+}
+
+._jumbotron-2 {
+	background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+	background-size: cover;
+	background-position: 50%;
+}
+
+/* NEW-RELEASES */
+._new-releases {
+	color: var(--_light-text-clr);
+	background-color: var(--_dark-bg-clr);
 }

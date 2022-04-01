@@ -26,15 +26,14 @@
 	</head>
 	<body>
 		<!-- HEADER -->
-		<header>
-			<div class="header-top">
-				<div class="sony-logo-wrapper">
-					<img src="img/sony_logo.svg" alt="sony" />
-				</div>
+		<header class="fixed-top">
+			<div class="_header-top bg-dark text-end">
+				<img src="img/sony_logo.svg" alt="sony" />
 			</div>
+			<!-- NAVBAR -->
 			<nav>
 				<div class="container-fluid">
-					<div class="row row-cols-2">
+					<div class="row row-cols-2 align-items-center">
 						<div class="col">
 							<div class="ps-logo-wrapper d-lg-inline-block">
 								<img src="img/play_logo.svg" alt="playstation-logo" />
@@ -49,40 +48,47 @@
 							</ul>
 						</div>
 						<div class="col text-end">
-							<div class="burger-wrapper">
-								<button class="btn d-lg-none">
-									<a href=""><i></i></a>
-								</button>
-								<ul class="d-none d-lg-inline-block">
-									<li><a href="">my playstation</a></li>
-									<li class="btn"><a href="">accedi</a></li>
-									<li>
-										<a href=""><i></i></a>
-									</li>
-								</ul>
-							</div>
+							<button class="btn d-lg-none">
+								<a href=""><i></i></a>
+							</button>
+							<ul class="d-none d-lg-inline-block">
+								<li><a href="">my playstation</a></li>
+								<li class="btn"><a href="">accedi</a></li>
+								<li>
+									<a href="">
+										<img class="w-50" src="img/lens.svg" alt="search-lens" />
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</nav>
+			<!-- /NAVBAR -->
 		</header>
 		<!-- /HEADER -->
 		<!-- MAIN -->
 		<!-- JUMBOTRON-1 -->
-		<section class="jumbotron-1">
+		<section class="_jumbotron _jumbotron-1 d-flex align-items-end">
 			<div class="_container">
-				<div class="jumbo-content _w-33">
-					<img src="img/returnal-hero-banner-logo.png" alt="" />
-					<div class="jumbo-text">
-						<h2>Rompi il cerchio</h2>
-						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus ab
-							ullam quas fugiat? Nesciunt illo asperiores et, pariatur magnam
-							maiores.
-						</p>
-						<button class="btn">
-							<a href="">Acquista ora</a>
-						</button>
+				<div class="container-fluid">
+					<div class="row row-cols-1 row-cols-lg-3">
+						<div class="col">
+							<div class="_jumbo-content">
+								<img src="img/returnal-hero-banner-logo.png" alt="" />
+								<div class="jumbo-text">
+									<h2>Rompi il cerchio</h2>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Natus ab ullam quas fugiat? Nesciunt illo asperiores et,
+										pariatur magnam maiores.
+									</p>
+									<button class="btn rounded-pill">
+										<a href="">Acquista ora</a>
+									</button>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -92,7 +98,7 @@
 		<section class="featured-gallery">
 			<div class="_container">
 				<div class="container-fluid">
-					<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
+					<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-3">
 						<div class="col">
 							<a href=""
 								><img
@@ -144,7 +150,7 @@
 		<section class="devices">
 			<div class="_container">
 				<div class="devices-title text-center">
-					<h5>play has no limits</h5>
+					<h5 class="text-uppercase">play has no limits</h5>
 					<h2>Ecco la Playstation 5</h2>
 					<p>Tuffati in nuove possibilità di gioco totalmente inaspettate</p>
 				</div>
@@ -192,6 +198,152 @@
 			</div>
 		</section>
 		<!-- /DEVICES -->
+		<!-- JUMBOTRON-2 -->
+		<section class="_jumbotron _jumbotron-2">
+			<div class="_container">
+				<div class="container-fluid">
+					<div class="row row-cols-1 row-cols-lg-3">
+						<div class="col">
+							<div class="_jumbo-content">
+								<img src="img/it-takes-two-logo.png" alt="" />
+								<div class="jumbo-text">
+									<h2>Un'avventura cooperativa selvaggia ti attende</h2>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Natus ab ullam quas fugiat? Nesciunt illo asperiores et,
+										pariatur magnam maiores.
+									</p>
+									<button class="btn rounded-pill">
+										<a href="">Acquista ora</a>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /JUMBOTRON-2 -->
+		<!-- NEW-RELEASES -->
+		<section class="_new-releases">
+			<div class="_container">
+				<div class="container-fluid">
+					<h3>Nuove uscite</h3>
+					<h5>Giochi incredibili per PS4 e PS5 disponibili ora</h5>
+					<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/tony-hawks-pro-skater-1-2-store-art.jpg"
+									alt="tony-hawks-pro-skater-1-2"
+								/>
+							</div>
+							<h6>Tony Hawk's&trade; Pro Skater&trade; 1+2</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+									alt="crash-bandicoot-4-its-about-time"
+								/>
+							</div>
+							<h6>Crash Bandicoot 4: It's About Time</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/tony-hawks-pro-skater-1-2-store-art.jpg"
+									alt="tony-hawks-pro-skater-1-2"
+								/>
+							</div>
+							<h6>Tony Hawk's&trade; Pro Skater&trade; 1+2</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+									alt="crash-bandicoot-4-its-about-time"
+								/>
+							</div>
+							<h6>Crash Bandicoot 4: It's About Time</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/tony-hawks-pro-skater-1-2-store-art.jpg"
+									alt="tony-hawks-pro-skater-1-2"
+								/>
+							</div>
+							<h6>Tony Hawk's&trade; Pro Skater&trade; 1+2</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+									alt="crash-bandicoot-4-its-about-time"
+								/>
+							</div>
+							<h6>Crash Bandicoot 4: It's About Time</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/tony-hawks-pro-skater-1-2-store-art.jpg"
+									alt="tony-hawks-pro-skater-1-2"
+								/>
+							</div>
+							<h6>Tony Hawk's&trade; Pro Skater&trade; 1+2</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+									alt="crash-bandicoot-4-its-about-time"
+								/>
+							</div>
+							<h6>Crash Bandicoot 4: It's About Time</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/tony-hawks-pro-skater-1-2-store-art.jpg"
+									alt="tony-hawks-pro-skater-1-2"
+								/>
+							</div>
+							<h6>Tony Hawk's&trade; Pro Skater&trade; 1+2</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+									alt="crash-bandicoot-4-its-about-time"
+								/>
+							</div>
+							<h6>Crash Bandicoot 4: It's About Time</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/tony-hawks-pro-skater-1-2-store-art.jpg"
+									alt="tony-hawks-pro-skater-1-2"
+								/>
+							</div>
+							<h6>Tony Hawk's&trade; Pro Skater&trade; 1+2</h6>
+						</div>
+						<div class="col">
+							<div class="_img-wrapper">
+								<img
+									src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+									alt="crash-bandicoot-4-its-about-time"
+								/>
+							</div>
+							<h6>Crash Bandicoot 4: It's About Time</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /NEW-RELEASES -->
 		<!-- /MAIN -->
 		<!-- FOOTER -->
 		<!-- /FOOTER -->
