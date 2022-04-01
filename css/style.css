@@ -77,3 +77,8 @@ nav {
 	color: var(--_light-text-clr);
 	background-color: var(--_dark-bg-clr);
 }
+
+/* PLAYSTATION-PLUS */
+._ps-plus {
+	background-color: var(--_light-bg-clr);
+}
