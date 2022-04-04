@@ -2,7 +2,7 @@
 :root {
 	--_primary-clr: #2d64e6;
 	--_light-text-clr: #fff;
-	--_medium-text-clr: #555;
+	--_medium-text-clr: #777;
 	--_btn-clr: #cd3d0f;
 	--_light-bg-clr: #bebcbb;
 	--_dark-bg-clr: #222;
@@ -15,20 +15,25 @@ body {
 }
 
 a {
+	font-size: 0.9rem;
 	text-decoration: none;
 	color: var(--_light-text-clr);
 }
 
 h2 {
-	/* font-size: 2.5rem; */
+	font-size: 2.5rem;
 }
 
 img {
 	width: 100%;
 }
 
+p {
+	padding: 1rem 0;
+}
+
 section {
-	padding: 2rem 0;
+	padding: 4rem 0;
 }
 
 ul {
@@ -41,12 +46,44 @@ ul {
 	width: 90%;
 }
 
+._img-wrapper {
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
 /* BUTTONS */
 ._btn-orange {
+	color: var(--_light-text-clr);
 	background-color: var(--_btn-clr);
 }
 
+._btn-orange:hover {
+	color: var(--_btn-clr);
+	background-color: var(--_light-text-clr);
+}
+
 ._btn-blue {
+	color: var(--_light-text-clr);
+	background-color: var(--_primary-clr);
+}
+
+._btn-blue-invert {
+	color: var(--_primary-clr);
+	background-color: #ddd;
+}
+
+._btn-blue-invert:hover {
+	color: var(--_light-text-clr);
+	background-color: var(--_primary-clr);
+}
+
+._btn-light {
+	color: var(--_secondary-bg-clr);
+	background-color: #ddd;
+}
+
+._btn-light:hover {
+	color: var(--_light-text-clr);
 	background-color: var(--_primary-clr);
 }
 
@@ -104,12 +141,6 @@ nav li {
 	background-position: 50%;
 }
 
-/* FEATURED-GALLERY */
-._featured-gallery ._img-wrapper {
-	border-radius: 1rem;
-	overflow: hidden;
-}
-
 /* DEVICES */
 ._devices h6 {
 	font-weight: 600;
@@ -126,7 +157,9 @@ nav li {
 	border-bottom: 2px solid var(--_primary-clr);
 }
 
-._devices p {
+._devices p,
+._explore-ps4 p,
+._new-discounts p {
 	color: var(--_medium-text-clr);
 }
 
@@ -134,6 +167,10 @@ nav li {
 ._new-releases {
 	color: var(--_light-text-clr);
 	background-color: var(--_dark-bg-clr);
+}
+
+._new-releases ._img-wrapper:hover {
+	opacity: 0.6;
 }
 
 /* PLAYSTATION-PLUS */
@@ -159,9 +196,26 @@ footer {
 }
 
 ._footer-top a {
-	color: var(--_light-text-clr);
+	font-size: 0.8rem;
+}
+
+._footer-top ._img-wrapper {
+	position: relative;
+}
+
+._footer-top ._img-wrapper::after {
+	content: "\00AE";
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.5rem;
+
+	font-size: 0.8rem;
 }
 
 ._footer-bottom ._img-wrapper {
 	width: 25%;
+}
+
+._footer-bottom p {
+	font-size: 0.8rem;
 }
