@@ -16,10 +16,19 @@ body {
 
 a {
 	text-decoration: none;
+	color: var(--_light-text-clr);
+}
+
+h2 {
+	/* font-size: 2.5rem; */
 }
 
 img {
 	width: 100%;
+}
+
+section {
+	padding: 2rem 0;
 }
 
 ul {
@@ -27,13 +36,18 @@ ul {
 	margin-bottom: 0;
 }
 
-section {
-	padding: 2rem 0;
-}
-
 ._container {
 	margin: 0 auto;
 	width: 90%;
+}
+
+/* BUTTONS */
+._btn-orange {
+	background-color: var(--_btn-clr);
+}
+
+._btn-blue {
+	background-color: var(--_primary-clr);
 }
 
 /* HEADER */
@@ -88,6 +102,32 @@ nav li {
 	background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 	background-size: cover;
 	background-position: 50%;
+}
+
+/* FEATURED-GALLERY */
+._featured-gallery ._img-wrapper {
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+/* DEVICES */
+._devices h6 {
+	font-weight: 600;
+	color: var(--_primary-clr);
+}
+
+._devices ._card {
+	opacity: 0.6;
+	transition: 150ms;
+}
+
+._devices ._card:hover {
+	opacity: 1;
+	border-bottom: 2px solid var(--_primary-clr);
+}
+
+._devices p {
+	color: var(--_medium-text-clr);
 }
 
 /* NEW-RELEASES */
